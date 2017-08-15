@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="2.0px"
+    android:keyHeight="@dimen/password_keyboard_key_height"
+    android:keyWidth="33.329998%p"
+    android:verticalGap="2.0px">
+    <Row>
+        <Key
+            android:codes="2"
+            android:keyEdgeFlags="left"
+            android:keyLabel="\ 1" />
+        <Key
+            android:codes="3"
+            android:keyLabel="\ 2" />
+        <Key
+            android:codes="4"
+            android:keyLabel="\ 3" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="5"
+            android:keyEdgeFlags="left"
+            android:keyLabel="\ 4" />
+        <Key
+            android:codes="6"
+            android:keyLabel="\ 5" />
+        <Key
+            android:codes="7"
+            android:keyLabel="\ 6" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="8"
+            android:keyEdgeFlags="left"
+            android:keyLabel="\ 7" />
+        <Key
+            android:codes="9"
+            android:keyLabel="\ 8" />
+        <Key
+            android:codes="10"
+            android:keyLabel="\ 9" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="11"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="1"
+            android:keyLabel="\ 0" />
+        <Key
+            android:codes="12"
+            android:keyLabel="×" />
+    </Row>
+</Keyboard>

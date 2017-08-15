@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fffafafa">
+
+    <RelativeLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#03cbde">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/zerotheme_top_back_icon" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/iv_back"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="New Message"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <com.sms.demo.contact.sms.privatebox.pwd.PasswordEntryKeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffe5e5e5"
+        android:keyBackground="@drawable/btn_keyboard_key_fulltrans"
+        android:keyTextColor="#ff00b3f6"
+        android:keyTextSize="21.0sp"
+        android:labelTextSize="21.0sp"
+        android:shadowColor="#ff00b3f6"
+        android:shadowRadius="0.0" />
+
+    <ImageView
+        android:id="@+id/shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="3.0dip"
+        android:layout_above="@id/keyboard"
+        android:background="@drawable/line_shadow_up" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/shadow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50.0dip" />
+</RelativeLayout>

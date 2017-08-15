@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmsDemo</string>
+    <string name="recipient_snap_text_suffix">… %1$d all</string>
+    <string name="has_invalid_recipient">Invalid recipient(s): &lt;%1$s></string>
+    <string name="invalid_recipient_message">Please correct the recipient(s) or they will not receive the message.</string>
+    <string name="no_message_tips">\"Tip: If the messages don\'t display properly, maybe ZERO SMS been prohibited to read the messages by permission management app, please reboot your device or modify the permission settings.\"</string>
+</resources>

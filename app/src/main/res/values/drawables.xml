@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="zerotheme_popup_button_selected">#195d95ee</item>
+    <item type="drawable" name="zerotheme_popup_button_normal">#00000000</item>
+    <item type="drawable" name="msgtypesel_linebg_selcolor">#ffebebeb</item>
+    <item type="drawable" name="zerotheme_icon_click_background">#4cffffff</item>
+    <item type="drawable" name="btn_keyboard_key_pressed">#ffe5f7fe</item>
+</resources>

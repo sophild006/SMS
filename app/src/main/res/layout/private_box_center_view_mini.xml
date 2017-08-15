@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="266.0dip"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="#7c7979">
+
+    <TextView
+        android:id="@+id/guideText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="3.0dip"
+        android:text=" "
+        android:textColor="#ff999999"
+        android:textSize="16.0sp" />
+
+    <LinearLayout
+        android:id="@+id/password_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guideText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20.0dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="3.0dip">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/private_box_input_empty" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/private_box_input_empty" />
+
+        <ImageView
+            android:id="@id/iv3"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/private_box_input_empty" />
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/private_box_input_empty" />
+    </LinearLayout>
+</RelativeLayout>
